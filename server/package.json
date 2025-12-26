@@ -1,0 +1,17 @@
+{
+  "name": "lab4new",
+  "version": "1.0.0",
+  "description": "test",
+  "license": "ISC",
+  "author": "Nattaporn Sangchawee",
+  "type": "commonjs",
+  "main": "index.js",
+ "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+},
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
